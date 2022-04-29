@@ -1,10 +1,16 @@
 <!-- 专门来进行代码格式化的文件，不重要 -->
 <!-- github的markdown无法识别style标签 -->
-<!-- <style>
+<!--
+    TODO:
+    1.给README.me页面制作目录
+    2.页面做重定向，让每次页面开始的位置是学习内容进行的位置
+    3.加其他效果，待定
+ -->
+<style>
     .loading {
         background-color: yellow;
     }
-</style> -->
+</style>
 <!-- 使用JavaScript重定向页面 -->
 <!-- <script>
     window.onload = function () {
