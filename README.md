@@ -1,9 +1,10 @@
 <!-- 专门来进行代码格式化的文件，不重要 -->
-<style>
+<!-- github的markdown无法识别style标签 -->
+<!-- <style>
     .loading {
         background-color: yellow;
     }
-</style>
+</style> -->
 <!-- 使用JavaScript重定向页面 -->
 <!-- <script>
     window.onload = function () {
@@ -135,5 +136,3 @@
     </ul>
 
 </body>
-
-</html>
