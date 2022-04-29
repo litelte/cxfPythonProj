@@ -4,8 +4,29 @@
     2.页面做重定向，让每次页面开始的位置是学习内容进行的位置
     3.加其他效果，待定
  -->
- <html>
- <body>
+<html>
+
+<body>
+    <!-- 使用折叠的语法示例 -->
+    <!-- <details>
+        <summary>
+            1.环境搭建
+        </summary>
+        <ul>
+            <li>1</li>
+            <li>
+                <details>
+                    <summary>2</summary>
+                    <ol>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                    </ol>
+                </details>
+            </li>
+            <li>3</li>
+        </ul>
+    </details> -->
     <h1>
         Python基础学习
     </h1>
@@ -44,56 +65,75 @@
     </h3>
     <ol>
         <li>列表是什么</li>
-        <li>修改、添加、和删除列表中的元素
-            <ul>
-                <li>append()</li>
-                <li>insert()</li>
-                <li>del</li>
-                <li>pop()</li>
-                <li>remove()</li>
-            </ul>
+        <li>
+            <details>
+                <summary>修改、添加、和删除列表中的元素</summary>
+                <ul>
+                    <li>append()</li>
+                    <li>insert()</li>
+                    <li>del</li>
+                    <li>pop()</li>
+                    <li>remove()</li>
+                </ul>
+            </details>
         </li>
-        <li>组织列表
-            <ul>
-                <li>sort()</li>
-                <li>sorted()</li>
-                <li>reverse()</li>
-                <li>len()</li>
-            </ul>
+        <li>
+            <details>
+                <summary>组织列表</summary>
+                <ul>
+                    <li>sort()</li>
+                    <li>sorted()</li>
+                    <li>reverse()</li>
+                    <li>len()</li>
+                </ul>
+            </details>
         </li>
     </ol>
     <h3>
         2.4 列表操作
     </h3>
     <ol>
-        <li>遍历列表
-            <ul>
-                <li>学习for in</li>
-            </ul>
+        <li>
+            <details>
+                <summary>遍历列表
+                </summary>
+                <ul>
+                    <li>学习for in</li>
+                </ul>
+            </details>
         </li>
         <li>缩进格式注意事项</li>
-        <li>创建数值列表
-            <ul>
-                <li>range()</li>
-                <li>min()</li>
-                <li>max()</li>
-                <li>sum()</li>
-                <li>列表解析</li>
-            </ul>
+        <li>
+            <details>
+                <summary>创建数值列表</summary>
+                <ul>
+                    <li>range()</li>
+                    <li>min()</li>
+                    <li>max()</li>
+                    <li>sum()</li>
+                    <li>列表解析</li>
+                </ul>
+            </details>
         </li>
-        <li>使用列表的一部分
-            <ul>
-                <li>切片[:]</li>
-                <li>遍历切片</li>
-                <li>复制切片</li>
-            </ul>
+        <li>
+            <details>
+                <summary>使用列表的一部分</summary>
+                <ul>
+                    <li>切片[:]</li>
+                    <li>遍历切片</li>
+                    <li>复制切片</li>
+                </ul>
+            </details>
         </li>
-        <li>元组
-            <ul>
-                <li>定义元组</li>
-                <li>遍历元组</li>
-                <li>修改元组变量</li>
-            </ul>
+        <li>
+            <details>
+                <summary>元组</summary>
+                <ul>
+                    <li>定义元组</li>
+                    <li>遍历元组</li>
+                    <li>修改元组变量</li>
+                </ul>
+            </details>
         </li>
         <li>设置代码格式pep8</li>
     </ol>
@@ -124,14 +164,5 @@
         <li>shift+回车键：运行当前单元格的代码，并创建新的单元格</li>
         <li>Ctrl+回车键：运行当前的代码</li>
     </ul>
-    <!--
-        下面是测试部分
-     -->
-     <details>
-<summary>展开查看</summary>
-<pre><code>
-System.out.println("Hello to see U!");
-</code></pre>
-</details>
 </body>
 </html>
