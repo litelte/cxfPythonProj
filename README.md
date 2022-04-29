@@ -145,22 +145,17 @@
         下面是测试部分
      -->
     <div style="width:150px;overflow: hidden;">
-
         <div id="title" style="height:30px;background-color: #FFE08B;" onclick="onTileClick()">标题</div>
-
         <div id="content" style="height:150px;background-color: #FFFAB9;transition: height 0.2s;">
             白日依山尽<br>
             黄河入海流<br>
             欲穷千里目<br>
             更上一层楼<br>
         </div>
-
     </div>
-
     <script type="text/javascript">
         var content = document.getElementById("content");
         function onTileClick() { content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px'; }
     </script>
 </body>
-
 </html>
