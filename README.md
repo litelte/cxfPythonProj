@@ -6,11 +6,12 @@
     2.页面做重定向，让每次页面开始的位置是学习内容进行的位置
     3.加其他效果，待定
  -->
-<style>
+ <!-- 不行，style还是没法被Github识别 -->
+<!-- <style>
     .loading {
         background-color: yellow;
     }
-</style>
+</style> -->
 <!-- 使用JavaScript重定向页面 -->
 <!-- <script>
     window.onload = function () {
