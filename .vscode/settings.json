@@ -3,12 +3,20 @@
         "elon",
         "hong",
         "huashan",
+        "mangguo",
         "mask",
+        "nailao",
         "nan",
         "poped",
         "shan",
         "wen",
+        "yerong",
         "zhang",
+        "zhishi",
         "zhong"
-    ]
+    ],
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    }
 }
