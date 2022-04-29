@@ -21,7 +21,10 @@
         window.location.href = "index.html"
     }
 </script> -->
-
+<script type="text/javascript">
+        var content = document.getElementById("content");
+        function onTileClick() { content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px'; }
+    </script>
 <body>
     <h1>
         Python基础学习
@@ -153,9 +156,5 @@
             更上一层楼<br>
         </div>
     </div>
-    <script type="text/javascript">
-        var content = document.getElementById("content");
-        function onTileClick() { content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px'; }
-    </script>
 </body>
 </html>
