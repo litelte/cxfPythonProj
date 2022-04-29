@@ -15,19 +15,19 @@ Python基础学习
     </h2>
     <h3>
         a. 相关资料
-        <ol>
+    </h3>
+        <ul>
             <li><a href="https://jhzxy4odk0.feishu.cn/wiki/wikcnE1N2WdiLmx2wEsxq7MNXPh">《Python编程从入门到实践第2版》</a></li>
             <li><a href="https://jhzxy4odk0.feishu.cn/wiki/wikcnGiv1aZCqwMTNsdjnN5iqoe">《快快乐乐学Linux》</a></li>
             <li><a href="https://markdown.com.cn/basic-syntax/" alt="markdown的基本语法">&nbsp;&nbsp;Markdown基本语法</a></li>
-        </ol>
-    </h3>
+        </ul>
     <h3>
         b. Jupyter Notebook in Visual studio Code 快捷键
+    </h3>
         <ul>
-            <li>shift+回车键：运行当前胶囊的代码，并创建新的单元</li>
+            <li>shift+回车键：运行当前单元格的代码，并创建新的单元格</li>
             <li>Ctrl+回车键：运行当前的代码</li>
         </ul>
-    </h3>
 
 </body>
 
