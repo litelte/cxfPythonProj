@@ -1,31 +1,11 @@
-<!-- 专门来进行代码格式化的文件，不重要 -->
-<!-- github的markdown无法识别style标签 -->
 <!--
     TODO:
     1.给README.me页面制作目录
     2.页面做重定向，让每次页面开始的位置是学习内容进行的位置
     3.加其他效果，待定
  -->
-<!-- 不行，style还是没法被Github识别 -->
-<!-- <style>
-    .loading {
-        background-color: yellow;
-    }
-</style> -->
-<!-- 使用JavaScript重定向页面 -->
-<!-- <script>
-    window.onload = function () {
-        setInterval("redirect();", 3000);
-    }
-    function redirect() {
-        window.location.href = "index.html"
-    }
-</script> -->
-<script type="text/javascript">
-        var content = document.getElementById("content");
-        function onTileClick() { content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px'; }
-    </script>
-<body>
+ <html>
+ <body>
     <h1>
         Python基础学习
     </h1>
@@ -147,14 +127,11 @@
     <!--
         下面是测试部分
      -->
-    <div style="width:150px;overflow: hidden;">
-        <div id="title" style="height:30px;background-color: #FFE08B;" onclick="onTileClick()">标题</div>
-        <div id="content" style="height:150px;background-color: #FFFAB9;transition: height 0.2s;">
-            白日依山尽<br>
-            黄河入海流<br>
-            欲穷千里目<br>
-            更上一层楼<br>
-        </div>
-    </div>
+     <details>
+<summary>展开查看</summary>
+<pre><code>
+System.out.println("Hello to see U!");
+</code></pre>
+</details>
 </body>
 </html>
