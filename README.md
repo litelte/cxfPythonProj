@@ -161,8 +161,14 @@
         b. Jupyter Notebook in Visual studio Code 快捷键
     </h3>
     <ul>
-        <li>shift+回车键：运行当前单元格的代码，并创建新的单元格</li>
-        <li>Ctrl+回车键：运行当前的代码</li>
+        <li>Alt+回车键：运行当前单元格的代码，并创建新的单元格</li>
+        <li>Ctrl+回车键：自动切换到下 一行</li>
+        <li>Shift+回车键：运行当前单元格代码</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
     </ul>
 </body>
 </html>
