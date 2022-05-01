@@ -22,5 +22,6 @@
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "right"
-    }
+    },
+    "editor.formatOnSave": true
 }
