@@ -1,28 +1,35 @@
 {
-    "cSpell.words": [
-        "buou",
-        "daju",
-        "efermi",
-        "elon",
-        "hong",
-        "huashan",
-        "mangguo",
-        "mask",
-        "nailao",
-        "nan",
-        "poped",
-        "sanhua",
-        "shan",
-        "wen",
-        "xiao",
-        "yerong",
-        "zhang",
-        "zhishi",
-        "zhong"
-    ],
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "right"
     },
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    // 在虚拟机中的选择Python解释器
+    "python.defaultInterpreterPath": "~/miniconda3/envs/ubuntu2204VMenv/bin/python",
+    "jupyter.kernels.filter": [
+        // {
+        //     "type": "jupyterKernelspec",
+        //     "path": "/usr/share/jupyter/kernels/sample/kernelspec.json"
+        // },
+        // {
+        //     "type": "jupyterKernelspec",
+        //     "path": "~/miniconda3/envs/sample/scripts/python.exe"
+        // }
+        {
+            "type": "pythonEnvironment",
+            "path": "~/miniconda3/envs/ubuntu2204VMenv/bin/python"
+        },
+        {
+            "type": "jupyterKernelspec",
+            "path": "~/miniconda3/envs/ubuntu2204VMenv/bin/python"
+        }
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:cxfPythonProj}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
