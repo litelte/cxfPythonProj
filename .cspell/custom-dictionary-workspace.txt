@@ -15,6 +15,7 @@ mcurie
 meituan
 nailao
 poped
+pygame
 pytho
 rubt
 sanhua
