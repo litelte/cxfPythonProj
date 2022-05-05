@@ -3,6 +3,7 @@ aeinstein
 buou
 cheng
 daju
+doub
 ducati
 efermi
 elon
@@ -14,6 +15,7 @@ litelte
 mangguo
 mcurie
 meituan
+myrandint
 nailao
 poped
 pygame
