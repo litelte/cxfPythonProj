@@ -170,5 +170,24 @@
         <li></li>
         <li></li>
     </ul>
+    <h3>
+        c. Python文件下在vscode的快捷键
+    </h3>
+    <ul>
+        <li>Alt+, 焦点切换到终端</li>
+        <li>Alt+. 焦点切换到编辑框</li>
+        <li>ctrl+Alt+R 重新加载窗口</li>
+        <li>shift + alt + = 添加所有存在疑问的词到工作区词典</li>
+        <li>shift + alt + A 添加块注释</li>
+        <li>CTRL + shift + X:扩展 +G:git +M SSH连接 +E 文件管理 +D 运行和调试 +B 隐藏侧边栏</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
 </body>
 </html>
