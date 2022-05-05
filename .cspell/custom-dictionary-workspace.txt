@@ -9,6 +9,7 @@ elon
 etron
 huaqing
 huashan
+isover
 litelte
 mangguo
 mcurie
@@ -19,6 +20,7 @@ pygame
 pytho
 rubt
 sanhua
+scanf
 throuth
 wmazi
 xiao

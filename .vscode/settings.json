@@ -21,7 +21,7 @@
         },
         {
             "type": "jupyterKernelspec",
-            "path": "~/miniconda3/envs/ubuntu2204VMenv/bin/python"
+            "path": "~/miniconda3/envs/ubuntu2204VMenv/share/jupyter/kernels/python3/kernel.json"
         }
     ],
     "cSpell.customDictionaries": {
