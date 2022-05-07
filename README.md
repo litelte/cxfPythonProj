@@ -180,7 +180,7 @@
         <li>shift + alt + = 添加所有存在疑问的词到工作区词典</li>
         <li>shift + alt + A 添加块注释</li>
         <li>CTRL + shift + X:扩展 +G:git +M SSH连接 +E 文件管理 +D 运行和调试 +B 隐藏侧边栏</li>
-        <li></li>
+        <li>ctrl + shift + /: 在交互式窗口中运行选择的行或部分</li>
         <li></li>
         <li></li>
         <li></li>

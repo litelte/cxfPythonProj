@@ -11,6 +11,7 @@ etron
 huaqing
 huashan
 isover
+jimi
 litelte
 mangguo
 mcurie
@@ -24,8 +25,11 @@ rubt
 sanhua
 scanf
 throuth
+titele
+willit
 wmazi
 xiao
+xxxl
 yerong
 zhang
 zheng
