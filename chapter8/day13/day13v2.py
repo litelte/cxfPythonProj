@@ -21,4 +21,3 @@ while True:
     # 如果上面的条件都没退出循环，下来把收集到的值添加到字典中
     music = make_album(singer_name, album_name, song_count)
     print(music)
-
