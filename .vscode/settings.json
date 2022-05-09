@@ -31,5 +31,6 @@
             "addWords": true,
             "scope": "workspace"
         }
-    }
+    },
+    "python.formatting.provider": "black"
 }
