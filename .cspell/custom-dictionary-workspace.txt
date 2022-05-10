@@ -17,6 +17,8 @@ mangguo
 mcurie
 meituan
 myrandint
+myres
+myrestype
 nailao
 poped
 pygame
@@ -24,6 +26,7 @@ pytho
 rubt
 sanhua
 scanf
+secnd
 throuth
 titele
 unprint
