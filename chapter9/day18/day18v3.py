@@ -15,19 +15,20 @@ class Generate_lottery:
 
     # 生成一个中奖的票号
     def generate_list(self, choiceCount=4):
-        self.alphabetCount = 5
-        self.numberCount = 10
-        # 生成数字序列
-        self.numberCount += 1
-        numbers = list(range(1, self.numberCount))
+        # 为了不改变用户传入的字母数还有数字数，这里设置一个临时变量
+        alphabetCount_current = self.alphabetCount
+        numberCount_current = self.alphabetCount
+        # 生成数字序列+1,方便做生成数
+        numberCount_current += 1
+        numbers = list(range(1, numberCount_current))
         # 生成字母序列
         current_alphabets = [chr(i) for i in range(97, 130)]
         alphabets = []
         # 进行第二轮循环的时候，alphabetCount得初始化一下
         for alpha in current_alphabets:
-            if self.alphabetCount:
+            if alphabetCount_current:
                 alphabets.append(alpha)
-                self.alphabetCount -= 1
+                alphabetCount_current -= 1
             else:
                 break
 
@@ -45,7 +46,9 @@ class Generate_lottery:
         # 开始选数字和字母，所选的字母和数字均不能重复
         numbers_choice = []
         while chooseNumber:
+            # 从待选序列中随机取一个
             current_number = choice(numbers)
+            # 取完一个，马上就删除，保证就算是随机取的，都不会有重复的数
             numbers_choice.append(current_number)
             numbers.remove(current_number)
             chooseNumber -= 1

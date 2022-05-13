@@ -6,7 +6,7 @@ lottery = gl(10, 5)
 # 大奖的序列
 grand_prize = lottery.generate_list()
 print(f"大奖序列：{grand_prize}")
-# 中将标志位，没有中奖就继续买，直到中奖为止
+# 中奖标志位，没有中奖就继续买，直到中奖为止
 no_win = True
 # 用户购买的次数
 purchases = 0
