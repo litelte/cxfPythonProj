@@ -3,27 +3,6 @@
         "default": "right",
         "jupyter-notebook": "right"
     },
-    "editor.formatOnSave": true,
-    // 在虚拟机中的选择Python解释器
-    "python.defaultInterpreterPath": "~/miniconda3/envs/ubuntu2204VMenv/bin/python",
-    "jupyter.kernels.filter": [
-        // {
-        //     "type": "jupyterKernelspec",
-        //     "path": "/usr/share/jupyter/kernels/sample/kernelspec.json"
-        // },
-        // {
-        //     "type": "jupyterKernelspec",
-        //     "path": "~/miniconda3/envs/sample/scripts/python.exe"
-        // }
-        {
-            "type": "pythonEnvironment",
-            "path": "~/miniconda3/envs/ubuntu2204VMenv/bin/python"
-        },
-        {
-            "type": "jupyterKernelspec",
-            "path": "~/miniconda3/envs/ubuntu2204VMenv/share/jupyter/kernels/python3/kernel.json"
-        }
-    ],
     "cSpell.customDictionaries": {
         "custom-dictionary-workspace": {
             "name": "custom-dictionary-workspace",
@@ -32,5 +11,6 @@
             "scope": "workspace"
         }
     },
-    "python.formatting.provider": "black"
+    "python.formatting.provider": "black",
+    "python.defaultInterpreterPath": "/home/ubuntu/miniconda3/bin/python"
 }
