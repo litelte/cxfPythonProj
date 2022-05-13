@@ -12,5 +12,6 @@
         }
     },
     "python.formatting.provider": "black",
-    "python.defaultInterpreterPath": "/home/ubuntu/miniconda3/bin/python"
+    "python.defaultInterpreterPath": "/home/ubuntu/miniconda3/bin/python",
+    "black-formatter.trace": "error"
 }

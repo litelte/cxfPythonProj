@@ -9,12 +9,12 @@ class User:
         print(f"中式叫法：{self.last+' '}{self.first}")
 
     def greet_user(self):
-        fullName = self.last + ' ' + self.first
+        fullName = self.last + " " + self.first
         print(f"你好{fullName.title()}，很高兴见到你！")
 
 
-xiao_ming = User('xiao ming', 'li')
-xiao_hua = User('xiao hua', 'zhang')
+xiao_ming = User("xiao ming", "li")
+xiao_hua = User("xiao hua", "zhang")
 
 xiao_ming.describe_user()
 xiao_ming.greet_user()

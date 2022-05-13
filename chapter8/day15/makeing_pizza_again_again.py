@@ -1,8 +1,8 @@
 # 还有新的方式，使用as
 from pizza import make_pizza as mp
 
-mp(16, 'pepperoni')
-mp(12, 'mushrooms', 'green', 'extra cheese')
+mp(16, "pepperoni")
+mp(12, "mushrooms", "green", "extra cheese")
 """
 还有使用as给函数指定别名
 from pizza import make_pizza as mp

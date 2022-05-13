@@ -1,11 +1,16 @@
 # Custom Dictionary Words
 aeinstein
+alph
+atest
 behaviour
 beoverridden
+btest
 buou
 cheng
+choosealph
 conda
 condabin
+ctest
 daju
 deserialization
 doub
@@ -27,6 +32,7 @@ mathjax
 mcurie
 meituan
 miniconda
+mychoice
 myrandint
 myres
 myrestype
