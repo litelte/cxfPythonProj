@@ -1,11 +1,13 @@
 # Custom Dictionary Words
 aeinstein
 alph
+Asline
 atest
 behaviour
 beoverridden
 btest
 buou
+Byone
 cheng
 choosealph
 conda
@@ -40,6 +42,7 @@ nailao
 nbconvert
 nbextensions
 nbserver
+noline
 packb
 poped
 Popen

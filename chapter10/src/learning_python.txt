@@ -1,0 +1,3 @@
+In Python you can do everything.
+In Python you can control file.
+In Python you can be a cool man.
