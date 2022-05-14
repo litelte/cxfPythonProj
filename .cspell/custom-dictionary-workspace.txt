@@ -12,6 +12,7 @@ cheng
 choosealph
 conda
 condabin
+creatfile
 ctest
 daju
 deserialization
@@ -34,6 +35,8 @@ mathjax
 mcurie
 meituan
 miniconda
+moby
+mody
 mychoice
 myrandint
 myres
