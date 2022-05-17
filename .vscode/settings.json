@@ -6,7 +6,7 @@
     "cSpell.customDictionaries": {
         "custom-dictionary-workspace": {
             "name": "custom-dictionary-workspace",
-            "path": "${workspaceFolder:cxfPythonProj}/.cspell/custom-dictionary-workspace.txt",
+            "path": "${workspaceFolder:practicePythonProj}/.cspell/custom-dictionary-workspace.txt",
             "addWords": true,
             "scope": "workspace"
         }
